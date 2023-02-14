@@ -1,0 +1,87 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0
+}
+.list-container {
+    position: relative;
+    display: block;
+    margin-top: 50px;
+}
+
+.header {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.block {
+    position: relative;
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000;
+}
+.block-header {
+    color: blue;
+}
+.block-list-item {
+    position: relative;
+    display: block;
+    height: 70px;
+    background: blue;
+    margin-top: 10px;
+    width: 400px;
+}
+
+.inline-block {
+    position: relative;
+    display: inline-block;
+    width: 600px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 0;
+    border: 1px solid #000;
+}
+.inline-block-header {
+    color: green;
+}
+.inline-block-list-item {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: green;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.flex {
+    position: relative;
+    display: flex;
+    width: 600px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 0;
+    border: 1px solid #000;
+    max-width: 600px;
+    overflow-x: auto;
+}
+.flex-header {
+    color: red;
+}
+.flex-list-item {
+    position: relative;
+    display: block;
+    height: 70px;
+    width: 70px;
+    background: red;
+    margin-left: 20px;
+    top: 0;
+    min-width: 70px;
+}
